@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35a23d2-1c91-43be-9ace-3ce6f8498d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/nasaKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/satelliteList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +50,13 @@
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ReactApps\satellite-tracker\src" />
+      <recent name="F:\ReactApps\satellite-tracker" />
+      <recent name="F:\ReactApps\satellite-tracker\src\Components" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -67,6 +91,7 @@
       <workItem from="1621778869740" duration="361000" />
       <workItem from="1622355312554" duration="846000" />
       <workItem from="1622966870433" duration="342000" />
+      <workItem from="1623489534747" duration="7663000" />
     </task>
     <servers />
   </component>
@@ -78,10 +103,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1621778768138" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623490010504">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1623490010504" />
     <state x="93" y="81" key="FileChooserDialogImpl" timestamp="1621778742621">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="93" y="81" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1621778742621" />
+    <state width="1345" height="220" key="GridCell.Tab.0.bottom" timestamp="1623491257265">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="220" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
+    <state width="1345" height="220" key="GridCell.Tab.0.center" timestamp="1623491257265">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="220" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
+    <state width="1345" height="220" key="GridCell.Tab.0.left" timestamp="1623491257265">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="220" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
+    <state width="1345" height="220" key="GridCell.Tab.0.right" timestamp="1623491257265">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="220" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1621778782004">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
