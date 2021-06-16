@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35a23d2-1c91-43be-9ace-3ce6f8498d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/nasaKey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/satelliteList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Custom/DateTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Custom/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Custom/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Earth/Earth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/satelliteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/satellite.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ReactApps\satellite-tracker\src\Components\Custom" />
       <recent name="F:\ReactApps\satellite-tracker\src" />
+      <recent name="F:\ReactApps\satellite-tracker\src\images" />
       <recent name="F:\ReactApps\satellite-tracker" />
       <recent name="F:\ReactApps\satellite-tracker\src\Components" />
     </key>
@@ -91,46 +95,71 @@
       <workItem from="1621778869740" duration="361000" />
       <workItem from="1622355312554" duration="846000" />
       <workItem from="1622966870433" duration="342000" />
-      <workItem from="1623489534747" duration="7663000" />
+      <workItem from="1623489534747" duration="28100000" />
+      <workItem from="1623680240678" duration="793000" />
     </task>
+    <task id="LOCAL-00001" summary="Added api">
+      <created>1623497683165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623497683165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621778768139">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1621778768138" />
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623490010504">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623578760998">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1623490010504" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1623578760998" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1623497680632">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1623497680632" />
     <state x="93" y="81" key="FileChooserDialogImpl" timestamp="1621778742621">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="93" y="81" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1621778742621" />
-    <state width="1345" height="220" key="GridCell.Tab.0.bottom" timestamp="1623491257265">
+    <state width="1345" height="220" key="GridCell.Tab.0.bottom" timestamp="1623678083823">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
-    <state width="1345" height="220" key="GridCell.Tab.0.center" timestamp="1623491257265">
+    <state width="1345" height="220" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
+    <state width="1345" height="220" key="GridCell.Tab.0.center" timestamp="1623678083823">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
-    <state width="1345" height="220" key="GridCell.Tab.0.left" timestamp="1623491257265">
+    <state width="1345" height="220" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
+    <state width="1345" height="220" key="GridCell.Tab.0.left" timestamp="1623678083823">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
-    <state width="1345" height="220" key="GridCell.Tab.0.right" timestamp="1623491257265">
+    <state width="1345" height="220" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
+    <state width="1345" height="220" key="GridCell.Tab.0.right" timestamp="1623678083823">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1623491257265" />
+    <state width="1345" height="220" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1621778782004">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1621778782004" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1623497686535">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1623497686535" />
+    <state x="0" y="0" width="607" height="738" key="find.popup" timestamp="1623504204116">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" width="607" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1623504204116" />
     <state x="400" y="177" key="jetbrains.nodejs.interpreters-dialog" timestamp="1621778744362">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

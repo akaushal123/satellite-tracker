@@ -1,19 +1,24 @@
 import axios from "axios";
 
+const PROXY = "https://cors-anywhere.herokuapp.com/";
 const URL_ENDPOINT = "http://tle.ivanstanojevic.me/api/tle";
 
 export const getSatelliteList = async () => {
-    const response = axios.get(URL_ENDPOINT, {
+    const response = await axios.get(`${PROXY}${URL_ENDPOINT}`, {
         headers:{
             "access-control-allow-origin" : "*",
             "Content-type": "application/json; charset=UTF-8"
         }
     }).catch(e => console.log(e));
-        console.log(response);
+
+    return response.data.member.map(obj => ({
+        satelliteId: obj.satelliteId,
+        satelliteName: obj.name
+    }));
 };
 
 export const getSatelliteInfo = async (satelliteId) => {
-    const response = axios.get(URL_ENDPOINT, {
+    const response = await axios.get(`${PROXY}${URL_ENDPOINT}`, {
         params: satelliteId
     }).catch(e => console.log(e));
     console.log(response);
