@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35a23d2-1c91-43be-9ace-3ce6f8498d06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Custom/DateTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Custom/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Custom/Select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Earth/Earth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="c35a23d2-1c91-43be-9ace-3ce6f8498d06" name="Default Changelist" comment="Added api">
+      <change afterPath="$PROJECT_DIR$/src/images/earth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/earthBump.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/earthSpec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/satelliteList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/satellite.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +88,8 @@
       <workItem from="1622966870433" duration="342000" />
       <workItem from="1623489534747" duration="28100000" />
       <workItem from="1623680240678" duration="793000" />
+      <workItem from="1623839866652" duration="383000" />
+      <workItem from="1623840397353" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="Added api">
       <created>1623497683165</created>
@@ -105,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623497683165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added api">
+      <created>1623840249939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623840249940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,10 +124,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1623578760998" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1623497680632">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1623840432455">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1623497680632" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1623840432455" />
     <state x="93" y="81" key="FileChooserDialogImpl" timestamp="1621778742621">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -152,10 +152,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1621778782004" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1623497686535">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1623840254054">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1623497686535" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1623840254054" />
     <state x="0" y="0" width="607" height="738" key="find.popup" timestamp="1623504204116">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
