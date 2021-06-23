@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35a23d2-1c91-43be-9ace-3ce6f8498d06" name="Default Changelist" comment="Added api">
-      <change afterPath="$PROJECT_DIR$/src/images/earth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/earthBump.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/earthSpec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo1.svg" afterDir="false" />
+    <list default="true" id="c35a23d2-1c91-43be-9ace-3ce6f8498d06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/satellite/Satellite.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Custom/DateTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/custom/DateTime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Custom/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/custom/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Custom/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/custom/Select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Earth/Earth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/earth/Earth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/satellite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/satelliteDataApi.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +41,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -89,7 +95,9 @@
       <workItem from="1623489534747" duration="28100000" />
       <workItem from="1623680240678" duration="793000" />
       <workItem from="1623839866652" duration="383000" />
-      <workItem from="1623840397353" duration="56000" />
+      <workItem from="1623840397353" duration="732000" />
+      <workItem from="1623866169775" duration="508000" />
+      <workItem from="1624383264853" duration="7679000" />
     </task>
     <task id="LOCAL-00001" summary="Added api">
       <created>1623497683165</created>
@@ -105,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623840249940</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="earth commented">
+      <created>1623840485453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623840485453</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,9 +128,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added api" />
+    <MESSAGE value="earth commented" />
+    <option name="LAST_COMMIT_MESSAGE" value="earth commented" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="27" key="#ESLint" timestamp="1624430429172">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="27" key="#ESLint/0.0.1366.738@0.0.1366.738" timestamp="1624430429172" />
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621778768139">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -124,38 +144,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1623578760998" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1623840432455">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1623840483388">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1623840432455" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1623840483388" />
     <state x="93" y="81" key="FileChooserDialogImpl" timestamp="1621778742621">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="93" y="81" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1621778742621" />
-    <state width="1345" height="220" key="GridCell.Tab.0.bottom" timestamp="1623678083823">
+    <state width="1345" height="220" key="GridCell.Tab.0.bottom" timestamp="1624383741842">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
-    <state width="1345" height="220" key="GridCell.Tab.0.center" timestamp="1623678083823">
+    <state width="1345" height="220" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1624383741842" />
+    <state width="1345" height="220" key="GridCell.Tab.0.center" timestamp="1624383741841">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
-    <state width="1345" height="220" key="GridCell.Tab.0.left" timestamp="1623678083823">
+    <state width="1345" height="220" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1624383741841" />
+    <state width="1345" height="220" key="GridCell.Tab.0.left" timestamp="1624383741841">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
-    <state width="1345" height="220" key="GridCell.Tab.0.right" timestamp="1623678083823">
+    <state width="1345" height="220" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1624383741841" />
+    <state width="1345" height="220" key="GridCell.Tab.0.right" timestamp="1624383741841">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1623678083823" />
+    <state width="1345" height="220" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1624383741841" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1621778782004">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1621778782004" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1623840254054">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1623840489174">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1623840254054" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1623840489174" />
     <state x="0" y="0" width="607" height="738" key="find.popup" timestamp="1623504204116">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

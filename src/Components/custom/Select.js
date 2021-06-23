@@ -1,7 +1,7 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-import { getSatelliteList } from "../../api/satellite";
+import { getSatelliteList } from "../../api/satelliteDataApi";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 export default function ComboBox(props) {
@@ -15,12 +15,12 @@ export default function ComboBox(props) {
 
         if(!loading) return undefined;
 
-        (async () => {
-            const response = await getSatelliteList();
-            if (active) {
-                setOptions(Object.keys(response).map((key) => response[key]));
-            }
-        })();
+            (async () => {
+                const response = await getSatelliteList();
+                if (active) {
+                    setOptions(Object.keys(response).map((key) => response[key]));
+                }
+            })();
 
         return () => {
             active = false;
@@ -29,7 +29,7 @@ export default function ComboBox(props) {
 
     React.useEffect(() => {
         if(!open)
-            setOptions([]);
+            setOptions(options);
     }, [open]);
 
     const handleChange = e => {

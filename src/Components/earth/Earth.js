@@ -35,7 +35,7 @@ class Earth extends React.Component {
                 return material;
             },
             glowMaterial: function(intensity, fade, color) {
-                // Custom glow shader from https://github.com/stemkoski/stemkoski.github.com/tree/master/Three.js
+                // custom glow shader from https://github.com/stemkoski/stemkoski.github.com/tree/master/Three.js
                 return new THREE.ShaderMaterial({
                     uniforms: {
                         'c': {
